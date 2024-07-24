@@ -77,9 +77,12 @@ padding-top: 0;
     width: 5em;
 }
 
-
-
 .content {
-    width: 32%;
-    margin: 1.8em;
+    width: 37em;
+}
+
+.content > p {
+    width: fit-content;
+    margin-top: 1.5em;
+
 }

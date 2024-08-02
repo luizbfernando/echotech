@@ -5,6 +5,7 @@ body {
     background-color: var(--cod-gray);
     font-family: arial;
     justify-content: center;
+    transition: 1s;
 }
 
 * {
@@ -26,12 +27,14 @@ section > h2 {
 section > img {
     height: 20em;
     align-items: center;
+    transition: 1s;
 }
 
 
 section {
     margin: 10%;
     align-items: center;
+    
 }
 
 p {

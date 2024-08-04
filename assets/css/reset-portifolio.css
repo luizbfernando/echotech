@@ -1,10 +1,11 @@
 body {
     display: flex;
+    justify-content: center;
+    flex-direction: row;
     margin: 0;
     padding: 0;
     background-color: var(--cod-gray);
     font-family: arial;
-    justify-content: center;
     transition: 1s;
 }
 
@@ -12,36 +13,39 @@ body {
     box-sizing: border-box;
 }
 
-main {
-    display: flex;
-    margin: 0;
-}
 
-section > h2 {
+section>h2 {
     margin-top: 0.7em;
     margin-bottom: 0;
-    font-size: 2.5em;
+    font-size: 200%;
     color: var(--fall-green);
 }
 
-section > img {
-    height: 20em;
-    align-items: center;
-    transition: 1s;
+section>img {
+    height: auto;
+    width: 18em;
+
 }
 
-
 section {
-    margin: 10%;
+    justify-content: flex-start;
+    display: flex;
+    margin: 5%;
     align-items: center;
-    
 }
 
 p {
     color: #c9c9c9;
+    margin: 4%;
+
 }
 
 
-strong , img {
+img {
     padding: 1%;
+}
+
+nav {
+    margin-right: 0;
+
 }

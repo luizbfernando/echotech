@@ -1,12 +1,12 @@
 
 .luiz {
-    width: 40%;
-    display: inherit;
+    height: auto;
+    width: 100%;
     flex-direction: column;
 }
 
 .diogo {
-    width: 40%;
-    display: inherit;
+    height: auto;
+    width: 100%;
     flex-direction: column;
 }

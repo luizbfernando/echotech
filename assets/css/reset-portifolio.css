@@ -1,7 +1,6 @@
 body {
     display: flex;
     justify-content: center;
-    flex-direction: row;
     margin: 0;
     padding: 0;
     background-color: var(--cod-gray);
@@ -43,9 +42,4 @@ p {
 
 img {
     padding: 1%;
-}
-
-nav {
-    margin-right: 0;
-
 }

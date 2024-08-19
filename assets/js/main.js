@@ -1,4 +1,12 @@
 var menuIcon = document.querySelector('.menu-icon');
-menuIcon.addEventListener('click', ()=>{
-    alert("Clicou no ícone")
+
+var ul = document.querySelector('.ul')
+
+menuIcon.addEventListener('click', () => {
+
+    if (ul.classList.contains('ativo')){
+        ul.classList.remove('ativo');
+    }else{
+        ul.classList.add('ativo');
+    }
 })

@@ -56,6 +56,7 @@ main .container {
 .header h1 {
     color: var(--yellow-green);
     padding: 10% 0 10% 0;
+    font-size: 2.5em;
 }
 
 .header img {
@@ -68,6 +69,22 @@ main .container {
     display: none;
     position: relative;
     z-index: 10;
+}
+
+.logo-footer img{ 
+    width: 5em;
+}
+
+
+.footer-ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-ul li a {
+    font-size: 0.7em;
+    color: var(--fall-green);
+    padding: 0 0.1%;
 }
 
 li:hover {
@@ -101,6 +118,11 @@ li:hover {
     .ul.ativo {
         left: 0%;
     }
+
+    footer ul li {
+        font-size: 1em;
+    }
+
 }
 
 @media screen and (min-width: 300px) {

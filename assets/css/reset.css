@@ -23,3 +23,8 @@ main {
     justify-content: center;
     flex-direction: column;
 }
+
+footer {
+    background-color: var(--thatch-green);
+}
+

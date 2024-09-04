@@ -1,4 +1,4 @@
-.background-escuro {
+    .background-escuro {
     background-color: var(--thatch-green);
 }
 
@@ -12,6 +12,10 @@
 .logo h2 {
     color: var(--bright);
     font-size: 2em;
+}
+
+.logo {
+    padding: 0.7em;
 }
 
 .logo>img {
@@ -56,7 +60,6 @@ main .container {
 .header h1 {
     color: var(--yellow-green);
     padding: 10% 0 10% 0;
-    font-size: 2.5em;
 }
 
 .header img {
@@ -64,6 +67,13 @@ main .container {
     height: auto;
 }
 
+.content {
+    justify-content: center;
+    display: flex;
+    max-width: 1440px;
+    padding: 0 6.3%;
+    margin: 0 auto;
+}
 
 .menu-icon {
     display: none;
@@ -71,29 +81,49 @@ main .container {
     z-index: 10;
 }
 
-.logo-footer img{ 
-    width: 5em;
-}
-
-
-.footer-ul {
-    display: flex;
-    justify-content: center;
-}
-
-.footer-ul li a {
-    font-size: 0.7em;
-    color: var(--fall-green);
-    padding: 0 0.1%;
-}
-
 li:hover {
     transition: 0.3s;
     font-size: 110%;
 }
 
+/*Footer*/
+
+.footer-background-escuro {
+    background-color: var(--thatch-green);
+}
+
+.footer-container {
+    max-width: 1440px;
+    padding: 0 5%;
+    margin: 0 auto;
+}
+
+.footer-logo>img {
+    width: 5em;
+    height: auto;
+}
+
+.footer-ul {
+    display: flex;
+    align-items: center;
+}
+
+.footer-ul li {
+    margin: 0 1em;
+    
+}
+
+.footer-ul > li > a {
+    color: var(--fall-green);
+}
+
 /* Menu icon */
 @media (max-width: 960px) {
+
+    .content > article {
+        width: auto;
+    }
+
     .menu-icon {
         display: block;
     }
@@ -119,15 +149,14 @@ li:hover {
         left: 0%;
     }
 
-    footer ul li {
-        font-size: 1em;
+    .footer-ul > li > a {
+        font-size: 12px;
     }
-
 }
 
 @media screen and (min-width: 300px) {
     header ul {
-        font-size: 5w;
+        font-size: 1.1em;
     }
 
 }

@@ -24,7 +24,31 @@ main {
     flex-direction: column;
 }
 
-footer {
-    background-color: var(--thatch-green);
+p {
+    color: var(--fall-green);
+    padding: 16px 0;
 }
 
+article {
+    width: 37.5em;
+}
+
+h2 {
+    font-size: 1.7em;
+    color: var(--yellow-green);
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: var(--yellow-green);
+    font-weight: 200;
+}
+
+footer {
+    display: flex;
+    background-color: var(--thatch-green);
+    justify-content: center;
+    width: fit-content;
+
+}

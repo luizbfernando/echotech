@@ -3,6 +3,7 @@ body {
     background-color: var(--dark);
     display: flex;
     flex-direction: column;
+    transition: 0.5s;
 }
 
 header {
@@ -25,12 +26,7 @@ nav {
     flex-direction: row;
 }
 
-main {
-    background-color: var(--dark);
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-}
+
 
 p {
     color: var(--fall-green);
@@ -55,16 +51,10 @@ h3 {
     font-weight: 200;
 }
 
-footer {
-    display: flex;
-    background-color: var(--thatch-green);
-    justify-content: center;
-    width: 100%;
 
-}
 
-p {
-    line-height: 1.5em;
-    text-justify: inter-word;
-    text-align: justify;
+
+.item:hover {
+    width: 26%;
+    transition: 0.5s;
 }

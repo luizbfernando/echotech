@@ -73,6 +73,8 @@ main .container {
     max-width: 1440px;
     padding: 0 6.3%;
     margin: 0 auto;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .menu-icon {

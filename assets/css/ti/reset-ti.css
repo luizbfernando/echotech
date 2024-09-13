@@ -1,6 +1,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--dark);
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -20,7 +22,7 @@ nav {
     display: flex;
     justify-content: start;
     align-items: start;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 main {

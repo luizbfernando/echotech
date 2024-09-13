@@ -27,6 +27,7 @@ main {
 p {
     color: var(--fall-green);
     padding: 16px 0;
+    line-height: 1.5em;
 }
 
 article {
@@ -51,8 +52,4 @@ footer {
     justify-content: center;
     width: 100%;
 
-}
-
-p {
-    line-height: 1.5em;
 }

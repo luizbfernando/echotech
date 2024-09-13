@@ -11,80 +11,59 @@
 
 .logo h2 {
     color: var(--bright);
-    font-size: 2em;
+    font-size: 2.4em;
+
 }
 
 .logo {
+    display: flex;
+    align-items: center;
     padding: 0.7em;
 }
 
 .logo>img {
-    width: 10em;
+    width: 15em;
     height: auto;
 }
 
-.ul {
+.nav-header {
+    width: 30%;
+    flex-wrap: wrap;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.header {
     display: flex;
+    justify-content: center;
     align-items: center;
-}
-
-.ul li {
-    margin: 0 1em;
-
-}
-
-.ul li a {
-    color: var(--fall-green);
-}
-
-main .container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-
-}
-
-.header ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.header>ul>li {
-    color: var(--fall-green);
-    padding: 15% 0 0 1em;
-    padding-left: 0;
-    white-space: nowrap;
-}
-
-.header h1 {
-    color: var(--yellow-green);
-    padding: 10% 0 10% 0;
+    flex-wrap: wrap;
 }
 
 .header img {
+    width: 75%;
+    height: 200px;
+}
+
+.item {
+    width: fit-content;
+    align-items: center;
+    flex-direction: column;
+    display: inherit;
+    padding: 1em;
+}
+
+.item > h2 {
+    text-align: center;
+    padding: 5%;
+}
+
+.item img {
     width: 100%;
-    height: auto;
 }
 
-.content {
-    justify-content: center;
-    display: flex;
-    max-width: 1440px;
-    padding: 0 6.3%;
-    margin: 0 auto;
-}
 
-.menu-icon {
-    display: none;
-    position: relative;
-    z-index: 10;
-}
-
-li:hover {
-    transition: 0.3s;
-    font-size: 110%;
-}
 
 /*Footer*/
 
@@ -110,17 +89,30 @@ li:hover {
 
 .footer-ul li {
     margin: 0 1em;
-    
+
 }
 
-.footer-ul > li > a {
+.footer-ul>li>a {
     color: var(--fall-green);
 }
 
 /* Menu icon */
 @media (max-width: 960px) {
 
-    .content > article {
+    .nav-header {
+        width: 100%;
+    }
+
+    .logo>h2 {
+        font-size: 150%;
+    }
+
+    .logo>img {
+        width: 12em;
+        height: auto;
+    }
+
+    .content>article {
         width: auto;
     }
 
@@ -138,10 +130,10 @@ li:hover {
         transition: 0.5s;
         flex-direction: column;
         justify-content: center;
-        
+
     }
 
-    .ul li{
+    .ul li {
         padding: 5%;
     }
 
@@ -149,7 +141,7 @@ li:hover {
         left: 0%;
     }
 
-    .footer-ul > li > a {
+    .footer-ul>li>a {
         font-size: 12px;
     }
 }

@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    background-color: var(--dark);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+p {
+    color: var(--fall-green);
+    padding: 16px 0;
+}
+
+article {
+    width: 37.5em;
+}
+
+h2 {
+    font-size: 1.7em;
+    color: var(--yellow-green);
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: var(--yellow-green);
+    font-weight: 200;
+}
+
+footer {
+    display: flex;
+    background-color: var(--thatch-green);
+    justify-content: center;
+    width: 100%;
+
+}
+
+p {
+    line-height: 1.5em;
+    text-justify: inter-word;
+    text-align: justify;
+}

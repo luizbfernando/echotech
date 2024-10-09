@@ -43,3 +43,21 @@ p {
 img {
     padding: 1%;
 }
+
+button {
+ 
+    padding: 5%;
+    background-color: var(--cod-gray);
+    transition: 0.5s;
+}
+
+button > a {
+    font-size: 1.4em;
+    text-decoration: none;
+    color: var(--fall-green);
+}
+
+button:hover {
+    background-color: gray;
+    color: black;
+}

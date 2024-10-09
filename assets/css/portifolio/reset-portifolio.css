@@ -13,14 +13,14 @@ body {
 }
 
 
-section>h2 {
+div>h2 {
     margin-top: 0.7em;
     margin-bottom: 0;
     font-size: 200%;
     color: var(--fall-green);
 }
 
-section>img {
+div>img {
     height: auto;
     width: 18em;
 
@@ -40,10 +40,6 @@ p {
 }
 
 
-img {
-    padding: 1%;
-}
-
 button {
  
     padding: 5%;
@@ -60,4 +56,13 @@ button > a {
 button:hover {
     background-color: gray;
     color: black;
+}
+
+@media (max-width: 600px) {
+
+    .luiz {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
 }

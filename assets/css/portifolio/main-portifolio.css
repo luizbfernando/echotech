@@ -1,12 +1,18 @@
 
 .luiz {
+    display: flex;
     height: auto;
-    width: 100%;
-    flex-direction: column;
+    width: min-content;
+    flex-direction: row;
+    justify-content: center;
+
 }
 
 .diogo {
+    display: flex;
     height: auto;
-    width: 100%;
-    flex-direction: column;
+    width: min-content;
+    flex-direction: row;
+    justify-content: center;
 }
+

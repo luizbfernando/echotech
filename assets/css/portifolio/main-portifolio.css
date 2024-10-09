@@ -16,3 +16,12 @@
     justify-content: center;
 }
 
+#linkedin {
+    width: 25%;
+    height: 1%;
+    transition: 0.5s;
+}
+
+#linkedin:hover {
+    width: 30%;
+}
